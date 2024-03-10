@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { listReservations } from "../utils/api";
-import ReservationOrganizer from "../dashboard/reservationDisplay/ReservationOrganizer";
-import ErrorAlert from "../layout/ErrorAlert";
+import { listReservations } from "../../utils/api";
+import ReservationOrganizer from "../../dashboard/reservationDisplay/ReservationOrganizer";
+import ErrorAlert from "../ErrorAlert";
 
 export default function SearchByMobileNumber() {
   const [reservations, setReservations] = useState([]);

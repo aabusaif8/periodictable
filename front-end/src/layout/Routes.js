@@ -7,8 +7,8 @@ import { today } from "../utils/date-time";
 import useQuery from "../utils/useQuery";
 import ReservationList from "../reservations/ReservationList";
 import CreateTable from "../tables/CreateTable";
-import SeatReservation from "../seat/SeatReservation";
-import SearchByMobileNumber from "../search/SearchByMobileNumber";
+import SeatReservation from "./seat/SeatReservation";
+import SearchByMobileNumber from "./search/SearchByMobileNumber";
 import EditReservation from "../reservations/EditReservation";
 
 /**
